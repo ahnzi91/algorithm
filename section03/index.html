@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연필 개수</title>
+  </head>
+  <body>
+    <script>
+      /* 
+       * Math.ceil()
+       * 주어진 숫자를 올림하여 가장 가까운 정수로 반환한다. 즉, 소수점 이하의 숫자가 존재할 경우, 해당 숫자보다 큰 가장 작은 정수를 반환한다.
+       * ex) Math.ceil(2.2323) -> 3
+      */
+      function solution(n) {
+        let answer = Math.ceil(n / 12);
+
+        return answer;
+      }
+
+      console.log(solution(25));
+      console.log(solution(178));
+    </script>
+  </body>
+</html>
